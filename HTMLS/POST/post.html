@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/IMAGES/logo-title-navbar-browser.png" type="x-icon">
+    <title>Bài viết</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/post_base.css">
+    <link rel="stylesheet" href="./CSS/post_main.css">
+    <link rel="stylesheet" href="./CSS/post_responsive.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div class="header__main-wrapper">
+
+                <div class="grid">
+                    <nav class="header__main">
+                        <input type="checkbox" id="nav-mobile-input">
+                        <label for="nav-mobile-input" class="nav-mobile-overlay"></label>
+                        <nav class="nav-mobile">
+                            <ul class="nav-mobile__list">
+                                <label for="nav-mobile-input" class="nav-mobile-close"><ion-icon
+                                        name="close-outline"></ion-icon></label>
+                                <li class="nav-mobile__item"><a href="#">Flash Sale</a></li>
+                                <li class="nav-mobile__item"><a href="#">Thương hiệu</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa nam</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa nữ</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa unisex</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa chiết
+                                    </a></li>
+                                <li class="nav-mobile__item"><a href="post.html">Bài viết
+                                    </a></li>
+                                <li class="nav-mobile__item"><a href="#">
+                                        Về chúng tôi</a></li>
+                                <li class="nav-mobile__item"><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </nav>
+
+
+
+
+
+
+
+
+
+
+                        <label for="nav-mobile-input" class="header__main-button-list-mobile">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </label>
+                        <div class="header__main-left">
+
+                            <a href="../../index.html">
+                                <img src="../../IMAGES/Logo.png" alt="Logo" class="header__main-left-logo">
+                            </a>
+                            <div class="header__main-left-search">
+                                <ion-icon name="search-outline" class="header__main-left-search-icon"></ion-icon>
+                                <input type="text" class="header__main-left-search-input"
+                                    placeholder="Tìm sản phẩm....">
+                            </div>
+                        </div>
+                        <!-- pos -->
+                        <div class="header__main-right">
+                            <a class="header__main-right-contact" href="tel: 0329710516">
+                                <ion-icon name="call" class="header__main-right-hotline-icon"></ion-icon>
+                                <h3 class="header__main-right-hotline">0329 710 516</h3>
+                            </a>
+                            <div class="header__main-right-cart-wrapper">
+                                <!-- open cart -->
+                                <a class="header__main-right-cart js-open-cart">
+                                    <span class="header__main-right-cart-lable ">Giỏ hàng</span>
+                                    <ion-icon name="cart" class="header__main-right-cart-icon"></ion-icon>
+                                    <!-- thong bao gio hang -->
+
+                                </a> <!-- open-overlay-with-cart  -->
+                                <div class="header__main-right-cart-notify js-modal">
+                                    <div class="header__main-right-cart-notify-overlay">
+                                    </div>
+                                    <div class="header__main-right-cart-notify-description">
+                                        <div>
+                                            <h2 class="header__main-right-cart-notify-lable">giỏ hàng</h2>
+                                            <div class="header__main-right-cart-notify-icon">
+                                                <ion-icon name="bag-handle-outline" class=""></ion-icon>
+                                            </div>
+                                            <h3 class="header__main-right-cart-notify-no-product">Chưa có sản phẩm
+                                                nào
+                                                trong giỏ hàng</h3>
+                                        </div>
+                                        <p class="header__main-right-cart-notify-return">
+                                            <a class="header__main-right-cart-notify-return-link js-modal-close">
+                                                Quay
+                                                lại
+                                                cửa
+                                                hàng</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class=" header__bottom-wrapper">
+                <div class="grid">
+                    <nav class="header__bottom">
+                        <ul class="header__bottom-list">
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Flash Sale</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Thương hiệu</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa
+                                    nam</a></li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa nữ</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa
+                                    unisex</a></li>
+                            <li class="header__bottom-item header__bottom-item-has-list">
+                                <a href="#" class="header__bottom-item-link">Nước hoa
+                                    chiết
+                                    <ion-icon name="chevron-down-outline"
+                                        class="header__bottom-item-link-icon"></ion-icon>
+                                </a>
+                                <ul class="header__bottom-item-hide-list">
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết nam</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết nữ</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết unisex</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item-has-list"><a href="post.html"
+                                    class="header__bottom-item-link">Bài
+                                    viết<ion-icon name="chevron-down-outline"
+                                        class="header__bottom-item-link-icon"></ion-icon></a>
+                                <ul class="header__bottom-item-hide-list">
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Khuyến mãi</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Kiến thức nước hoa</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Review nước hoa</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Về chúng
+                                    tôi</a></li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="grid_row">
+                <div class="container__address">
+                    <a href="../../index.html" class="container__address-link">Trang chủ</a>
+                    <ion-icon name="chevron-forward-outline" class="container__address-icon"></ion-icon>
+                    <span class="container__address-lable">Bài viết</span>
+                </div>
+
+                <div class="container__post-address">
+                    <ul>
+                        <li><a href="">Khuyến mãi</a></li>
+                        <li><a href="">Kiến thức nước hoa</a></li>
+                        <li><a href="">Review nước hoa</a></li>
+                    </ul>
+                </div>
+                <!-- post-list -->
+                <div class="container__post-list-wrapper">
+                    <div class="container__post-list">
+                        </a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post1.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post2.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Khám phá 10 chai nước hoa Tom Ford bán chạy nhất
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post3.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Bí quyết lựa chọn nước hoa Tom Ford phù hợp với từng mùa
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post4.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post5.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Hệ thống phân loại nước hoa Tom Ford: Bí kíp lựa chọn chai hương hoàn hảo
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post6.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Top 5 chai nước hoa chơi Tết cực hot để nàng tha hồ tỏa sáng
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post7.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Top nước hoa nữ mùi ngọt thơm lâu mê mẩn lòng người
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post8.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Top nước hoa mùi ngọt cho nam ghi điểm trong buổi hẹn hò
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post9.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Top nước hoa mùi ngọt cho nam ghi điểm trong buổi hẹn hò
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a></a><a href="#" class="container__post-item">
+                            <img src="./IMAGES/recent-img-post10.jpg" alt="" class="container__post-item-img">
+                            <div class="container__post-item-inf">
+                                <h3 class="container__post-item-inf-title">
+                                    Top nước hoa mùi trà xanh giúp bạn gây ấn tượng khó phai
+                                </h3>
+                                <div class="container__post-item-interact">
+                                    <div class="container__post-item-interact-date">
+                                        <ion-icon name="time-outline"
+                                            class="container__post-item-interact-date-icon"></ion-icon>
+                                        <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                    </div>
+                                    <div class="container__post-item-interact-view">
+                                        <ion-icon name="eye-outline"
+                                            class="container__post-item-interact-view-icon"></ion-icon>
+                                        <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                    </div>
+                                </div>
+                                <div class="container__post-item-inf-des">
+                                    Nước hoa Tom Ford nổi tiếng với hương thơm quyến rũ, sang trọng và độc đáo. Tuy
+                                    nhiên,
+                                    để tận hưởng trọn vẹn sự đẳng cấp từ những chai nước hoa này, bạn cần biết cách sử
+                                    dụng
+                                    chúng đúng cách. Bài viết dưới đây sẽ chia sẻ với bạn những bí quyết sử dụng nước
+                                    hoa
+                                    Tom Ford hiệu quả, giúp lưu hương lâu và tỏa hương tốt nhất.
+                                </div>
+
+                            </div>
+                        </a>
+                        <div class="container__post-page-number">
+                            <ul>
+                                <li><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><a href="">4</a></li>
+                                <li><a href="">...</a></li>
+                                <li><a href="">12</a></li>
+                                <li><a href=""><ion-icon name="chevron-forward-outline"></ion-icon></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="container__right">
+                            <div class="container__right-widget">
+                                <h3 class="container__right-widget-title">Bài viết từ Tiệm Nước Hoa</h3>
+                                <p>Chúng tôi sẽ liên tục cập nhật nhưng thông tin mới nhất, hữu ích nhất đến cho các
+                                    bạn!</p>
+                            </div>
+                            <div class="container__right-categories">
+                                <h3>Chuyên mục chính</h3>
+                                <div>
+                                    <a href="#">Khuyến mãi</a><a href="#">Kiến thức nước hoa</a><a href="#">Review nước
+                                        hoa</a>
+                                </div>
+                            </div>
+                            <div class="container__right-recent-posts">
+                                <h3 class="container__right-recent-posts-text">
+                                    Bài viết gần đây nhất
+                                </h3>
+                                <div class="container__right-recent-posts-list">
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post1.jpg" alt="">
+                                        <a href="">Khám phá 10 chai nước hoa Tom Ford bán chạy nhất</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post2.jpg" alt="">
+                                        <a href="">Bí quyết lựa chọn nước hoa Tom Ford phù hợp với từng mùa</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post3.jpg" alt="">
+                                        <a href="">Hệ thống phân loại nước hoa Tom Ford: Bí kíp lựa chọn chai hương hoàn
+                                            hảo</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post4.jpg" alt="">
+                                        <a href="">
+                                            Top 5 chai nước hoa chơi Tết cực hot để nàng tha hồ tỏa sáng</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post5.jpg" alt="">
+                                        <a href="">Top nước hoa nữ mùi ngọt thơm lâu mê mẩn lòng người</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post6.jpg" alt="">
+                                        <a href="">Top nước hoa mùi ngọt cho nam ghi điểm trong buổi hẹn hò</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post7.jpg" alt="">
+                                        <a href="">Top nước hoa mùi trà xanh giúp bạn gây ấn tượng khó phai</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post8.jpg" alt="">
+                                        <a href="">Nước hoa LV nam mùi nào thơm nhất hiện nay?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post9.jpg" alt="">
+                                        <a href="">Những điều cần biết về độ lưu hương của nước hoa</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post10.jpg" alt="">
+                                        <a href="">Nước hoa hãng Gucci của nước nào? Mùi nào thơm nhất?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post11.jpg" alt="">
+                                        <a href="">Nước hoa Niche là gì? Loại nào được săn đón nhất?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post12.jpg" alt="">
+                                        <a href="">Top nước hoa nam dưới 300k chất lượng nhất hiện nay</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post13.jpg" alt="">
+                                        <a href="">Top nước hoa nam giữ mùi lâu nhất giúp chàng luôn toả sáng</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post14.jpg" alt="">
+                                        <a href="">Nước hoa chiết có được mang lên máy bay không?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post15.jpg" alt="">
+                                        <a href="">Top nước hoa mùi cafe sảng khoái giúp tỉnh táo cả ngày dài</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post16.jpg" alt="">
+                                        <a href="">Nước hoa chiết xịt được bao nhiêu lần, mua chính hãng ở đâu?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post17.jpg" alt="">
+                                        <a href="">Nước hoa Calvin Klein của nước nào? Mùi nào thơm nhất?</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post18.jpg" alt="">
+                                        <a href="">Top những nước hoa nữ quyến rũ nhất hiện nay</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post19.jpg" alt="">
+                                        <a href="">Top 5 các dòng nước hoa Marc Jacob được chị em si mê nhất</a>
+                                    </div>
+                                    <div class="container__right-recent-posts-item"><img
+                                            src="./IMAGES/recent-img-post20.jpg" alt="">
+                                        <a href="">Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả</a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer__widget">
+                    <div class="footer__left">
+                        <p class="footer__left-description">Tiệm Nước Hoa là cửa hàng chuyên về các sản phẩm nước hoa
+                            chiết,
+                            full, chính hãng từ những thương
+                            hiệu
+                            nổi tiếng trên thế giới.</p>
+                        <ul>
+                            <li>Hotline: 0328 710 516</li>
+                            <li>CSKH & Khiếu nại: 0329 710 516</li>
+                            <li>Email: hungneon4@gmail.com</li>
+                            <li>Giờ làm việc: 9:00 - 21:00</li>
+                            <li>Địa chỉ: 48 Cao Thắng, Thanh Bình, Hải Châu, Đà Nẵng</li>
+                        </ul>
+                        <nav class="footer__left-social">
+                            <ul class="footer__left-social-icon-list">
+                                <li><a href=""><ion-icon name="logo-facebook""></ion-icon></a></li>
+                            <!-- <li><a href=""><ion-icon name=" logo-facebook" "></ion-icon></a></li>
+                            <li><a href=""><ion-icon name=" logo-pinterest"></ion-icon></a></li> -->
+                                <li><a href=""><ion-icon name="logo-pinterest"></ion-icon></a></li>
+                                <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                                <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                                <li><a href=""><ion-icon name="mail-outline"></ion-icon></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <nav class="footer__right">
+                        <div class="footer__right-policy">
+                            <span class="footer__right-policy-lable">Chính sách</span>
+                            <ul class="footer__right-policy-list">
+                                <li class="footer__right-policy-item">Chính sách bảo mật</li>
+                                <li class="footer__right-policy-item">Chính sách thanh toán</li>
+                                <li class="footer__right-policy-item">Chính sách vận chuyển</li>
+                                <li class="footer__right-policy-item">Chính sách đổi trả</li>
+                            </ul>
+                        </div>
+                        <div class="footer__right-information-right">
+                            <span class="footer__right-information-lable">Thông tin</span>
+                            <ul class="footer__right-information-list">
+                                <li class="footer__right-information-item"><a href="">Liên Hệ</a></li>
+                                <li class="footer__right-information-item"><a href="">Về chúng tôi</a></li>
+                                <li class="footer__right-information-item"><a href="">Đánh giá của khách hàng</a></li>
+                                <li class="footer__right-information-item"><a href="">Founder Lê Việt Hưng</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                Copyright 2024 &copy; TIỆM NƯỚC HOA;
+            </div>
+            <div class="contact-button">
+                <ul>
+                    <li><a href=""><img src="./IMAGES/map-logo.png" alt=""></a></li>
+                    <li><a href="https://m.me/hungneon74ne"><img src="./IMAGES/zalo-icon.png" alt=""></a></li>
+                    <li><a href="tel:0329710516"><img src="./IMAGES/call-icon.webp" alt=""></a></li>
+                    <li><a href="https://m.me/hungneon74ne"><img src="./IMAGES/messenger-icon.png" alt=""></a></li>
+                    <li><a href="#"><img src="./IMAGES/return-home-icon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="../../JS/main.js"></script>
+</body>
+
+</html>

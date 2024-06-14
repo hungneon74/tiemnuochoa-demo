@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/IMAGES/logo-title-navbar-browser.png" type="x-icon">
+    <title>Cửa hàng nước hoa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/resonsive.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div class="header__main-wrapper">
+
+                <div class="grid">
+                    <nav class="header__main">
+                        <input type="checkbox" id="nav-mobile-input">
+                        <label for="nav-mobile-input" class="nav-mobile-overlay"></label>
+                        <nav class="nav-mobile">
+                            <ul class="nav-mobile__list">
+                                <label for="nav-mobile-input" class="nav-mobile-close"><ion-icon
+                                        name="close-outline"></ion-icon></label>
+                                <li class="nav-mobile__item"><a href="#">Flash Sale</a></li>
+                                <li class="nav-mobile__item"><a href="#">Thương hiệu</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa nam</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa nữ</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa unisex</a></li>
+                                <li class="nav-mobile__item"><a href="#">Nước hoa chiết
+                                    </a></li>
+                                <li class="nav-mobile__item"><a href="./HTMLS/POST/post.html">Bài viết
+                                    </a></li>
+                                <li class="nav-mobile__item"><a href="#">
+                                        Về chúng tôi</a></li>
+                                <li class="nav-mobile__item"><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </nav>
+
+
+
+
+
+
+
+
+
+
+                        <label for="nav-mobile-input" class="header__main-button-list-mobile">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </label>
+                        <div class="header__main-left">
+
+                            <a href="index.html">
+                                <img src="./IMAGES/Logo.png" alt="Logo" class="header__main-left-logo">
+                            </a>
+                            <div class="header__main-left-search">
+                                <ion-icon name="search-outline" class="header__main-left-search-icon"></ion-icon>
+                                <input type="text" class="header__main-left-search-input"
+                                    placeholder="Tìm sản phẩm....">
+                            </div>
+                        </div>
+                        <!-- pos -->
+                        <div class="header__main-right">
+                            <a class="header__main-right-contact" href="tel: 0329710516">
+                                <ion-icon name="call" class="header__main-right-hotline-icon"></ion-icon>
+                                <h3 class="header__main-right-hotline">0329 710 516</h3>
+                            </a>
+                            <div class="header__main-right-cart-wrapper">
+                                <!-- open cart -->
+                                <a class="header__main-right-cart js-open-cart">
+                                    <span class="header__main-right-cart-lable ">Giỏ hàng</span>
+                                    <ion-icon name="cart" class="header__main-right-cart-icon"></ion-icon>
+                                    <!-- thong bao gio hang -->
+
+                                </a> <!-- open-overlay-with-cart  -->
+                                <div class="header__main-right-cart-notify js-modal">
+                                    <div class="header__main-right-cart-notify-overlay">
+                                    </div>
+                                    <div class="header__main-right-cart-notify-description">
+                                        <div>
+                                            <h2 class="header__main-right-cart-notify-lable">giỏ hàng</h2>
+                                            <div class="header__main-right-cart-notify-icon">
+                                                <ion-icon name="bag-handle-outline" class=""></ion-icon>
+                                            </div>
+                                            <h3 class="header__main-right-cart-notify-no-product">Chưa có sản phẩm
+                                                nào
+                                                trong giỏ hàng</h3>
+                                        </div>
+                                        <p class="header__main-right-cart-notify-return">
+                                            <a class="header__main-right-cart-notify-return-link js-modal-close">
+                                                Quay
+                                                lại
+                                                cửa
+                                                hàng</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class=" header__bottom-wrapper">
+                <div class="grid">
+                    <nav class="header__bottom">
+                        <ul class="header__bottom-list">
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Flash Sale</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Thương hiệu</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa
+                                    nam</a></li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa nữ</a>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Nước hoa
+                                    unisex</a></li>
+                            <li class="header__bottom-item header__bottom-item-has-list">
+                                <a href="#" class="header__bottom-item-link">Nước hoa
+                                    chiết
+                                    <ion-icon name="chevron-down-outline"
+                                        class="header__bottom-item-link-icon"></ion-icon>
+                                </a>
+                                <ul class="header__bottom-item-hide-list">
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết nam</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết nữ</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Nước hoa chiết unisex</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="header__bottom-item header__bottom-item-has-list"><a
+                                    href="./HTMLS/POST/post.html" class="header__bottom-item-link">Bài
+                                    viết<ion-icon name="chevron-down-outline"
+                                        class="header__bottom-item-link-icon"></ion-icon></a>
+                                <ul class="header__bottom-item-hide-list">
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Khuyến mãi</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Kiến thức nước hoa</a></li>
+                                    <li class="header__bottom-item-hide-item"><a href=""
+                                            class="header__bottom-item-hide-link">Review nước hoa</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Về chúng
+                                    tôi</a></li>
+                            <li class="header__bottom-item"><a href="#" class="header__bottom-item-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="grid_row">
+                <!-- slider -->
+                <div class="slider">
+                    <div class="slider__imgs">
+                        <input type="radio" name="inputslider" id="img1">
+                        <input type="radio" name="inputslider" id="img2">
+                        <input type="radio" name="inputslider" id="img3">
+                        <input type="radio" name="inputslider" id="img4">
+                        <img src="./IMAGES/slideshow_1.webp" alt="img1" class="imgslider1">
+                        <img src="./IMAGES/slideshow_2.webp" alt="img2" class="imgslider2">
+                        <img src="./IMAGES/slideshow_3.webp" alt="img3" class="imgslider3">
+                        <img src="./IMAGES/slideshow_4.webp" alt="img4" class="imgslider4">
+
+                    </div>
+                    <div class="label__slider">
+                        <label for="img1" class="label__slider1"></label>
+                        <label for="img2" class="label__slider2"></label>
+                        <label for="img3" class="label__slider3"></label>
+                        <label for="img4" class="label__slider4"></label>
+                    </div>
+                </div>
+                <!-- next -->
+                <div class="container__title">
+                    <h1 class="container__title-text">Flash sale</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__products">
+                    <!-- product1 -->
+                    <div class="grid__column-3">
+                        <div class="container__products-item">
+                            <a href="./HTMLS/PRODUCT/product.html" class="container__products-item-link"><img
+                                    src="./IMAGES/product_1.jpg" alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Armaf</span>
+                            <h3 class="container__products-item-name">Nước Hoa Armaf Club De Nuit Woman EDP</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">1.200.000 ₫</span>
+                                <span class="container__products-item-price-new">1.050.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">220.000 ₫</span>
+                                <span class="container__products-item-price-new">210.000 ₫</span>
+                            </div>
+                            <span class="container__products-item-sale">-13%</span>
+                        </div>
+                    </div>
+                    <!-- product2 -->
+                    <div class="grid__column-3">
+                        <div class="container__products-item">
+                            <a href="" class="container__products-item-link">
+                                <img src="./IMAGES/flash_sale_product_2.jpg" alt=""
+                                    class="container__products-item-img">
+                            </a>
+                            <span class="container__products-item-brand">Versace</span>
+                            <h3 class="container__products-item-name">Nước hoa Versace Bright Crystal EDT</h3>
+                            <h5 class="container__products-item-type">Full 90ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">1.750.000 ₫</span>
+                                <span class="container__products-item-price-new">1.050.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <!-- <span class="container__products-item-price-old">420.000 ₫</span> -->
+                                <span class="container__products-item-price-new">300.000 ₫</span>
+                            </div>
+                            <span class="container__products-item-sale">-3%</span>
+                        </div>
+                    </div>
+                    <!-- product3 -->
+                    <div class="grid__column-3">
+                        <div class="container__products-item">
+                            <a href="" class="container__products-item-link">
+                                <img src="./IMAGES/flash_sale_product_3.jpg" alt=""
+                                    class="container__products-item-img">
+                            </a>
+                            <span class="container__products-item-brand">Afnan Perfumes</span>
+                            <h3 class="container__products-item-name">Nước Hoa Armaf Club De Nuit Woman EDP</h3>
+                            <h5 class="container__products-item-type">Full 100ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">1.300.000 ₫</span>
+                                <span class="container__products-item-price-new">1.050.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">200.000 ₫</span>
+                                <span class="container__products-item-price-new">170.000 ₫</span>
+                            </div>
+                            <span class="container__products-item-sale">-19%</span>
+                        </div>
+                    </div>
+                    <!-- product4 -->
+                    <div class="grid__column-3">
+                        <div class="container__products-item">
+                            <a href="" class="container__products-item-link">
+                                <img src="./IMAGES/flash_sale_product_4.jpg" alt=""
+                                    class="container__products-item-img">
+                            </a>
+                            <span class="container__products-item-brand">Le Labo</span>
+                            <h3 class="container__products-item-name">Nước Hoa Le Labo 13 Another</h3>
+                            <h5 class="container__products-item-type">Full 100ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">6.200.000 ₫</span>
+                                <span class="container__products-item-price-new">6.000.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-old">680.000 ₫</span>
+                                <span class="container__products-item-price-new">650.000 ₫</span>
+                            </div>
+                            <span class="container__products-item-sale">-4%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container__title">
+                    <h1 class="container__title-text">Nước hoa nam</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__products">
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/man-product-1.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Lalique</span>
+                            <h3 class="container__products-item-name">Nước Hoa Lalique Encre Noire EDT</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">6.650.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">690.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/man-product-2.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Lalique</span>
+                            <h3 class="container__products-item-name">Nước Hoa Lalique Encre Noire A L’Extreme EDP </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.600.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">250.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/man-product-3.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Lalique</span>
+                            <h3 class="container__products-item-name">Nước Hoa Lalique Ombre Noire EDP</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.800.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">300.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/man-product-4.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Viktor & Rolf</span>
+                            <h3 class="container__products-item-name">Nước Hoa Viktor & Rolf Spicebomb Extrame EDP</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">2.250.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">410.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/man-product-5.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Viktor & Rolf</span>
+                            <h3 class="container__products-item-name">Nước Hoa Viktor & Rolf Spicebomb EDT</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">2.200.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">410.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container__title">
+                    <h1 class="container__title-text">Nước Hoa Unisex</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__products">
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/unisex-product-1.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Memo Paris</span>
+                            <h3 class="container__products-item-name">Nước Hoa Memo Paris African Leather</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">4.250.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">580.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/unisex-product-2.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Frederic Malle</span>
+                            <h3 class="container__products-item-name">Nước Hoa Frederic Malle Carnal Flower </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">6.500.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">710.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/unisex-product-3.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Butterfly</span>
+                            <h3 class="container__products-item-name">Nước Hoa Butterfly Thai Perfume Mango Sticky Rice
+                            </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.780.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">360.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/unisex-product-4.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Memo Paris</span>
+                            <h3 class="container__products-item-name">Nước Hoa Memo Paris Irish Leather</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">4.200.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">590.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/unisex-product-5.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Butterfly</span>
+                            <h3 class="container__products-item-name">Nước Hoa Butterfly Thai Perfume Cherry & Saffron
+                            </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.700.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">350.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__title">
+                    <h1 class="container__title-text">Nước hoa nữ</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__products">
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/woman-product-1.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Lolita Lempicka</span>
+                            <h3 class="container__products-item-name">Nước Hoa Lolita Lempicka Le Parfum Limited Edition
+                            </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.750.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">280.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/woman-product-2.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Lolita Lempicka</span>
+                            <h3 class="container__products-item-name">Nước Hoa Lolita Lempicka Club De Nuit Woman EDP
+                            </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.800.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">300.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/woman-product-3.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Juicy Couture</span>
+                            <h3 class="container__products-item-name">Nước Hoa Juicy Couture Viva La Juicy Rose EDP</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.850.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">300.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/woman-product-4.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Tom Ford</span>
+                            <h3 class="container__products-item-name">Nước Hoa Tom Ford Neroli Portofino EDP </h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">7.800.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.210.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="container__products-item">
+                            <a href="#" class="container__products-item-link"><img src="./IMAGES/woman-product-5.jpg"
+                                    alt="" class="container__products-item-img"></a>
+                            <span class="container__products-item-brand">Moschino</span>
+                            <h3 class="container__products-item-name">Nước Hoa Moschino Toy 2 Bubble Gum EDT</h3>
+                            <h5 class="container__products-item-type">Full 105ml
+                            </h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">1.700.000 ₫</span>
+                            </div>
+                            <h5 class="container__products-item-type">Chiết 10ml</h5>
+                            <div class="container__products-item-price">
+                                <span class="container__products-item-price-new">290.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container__text">
+                    <h2 class="container__text-title">TIỆM NƯỚC HOA CHÍNH HÃNG</h2>
+                    <p class="container__text-document">Chào mừng đến với Tiệm Nước Hoa! Chúng tôi cung cấp nước hoa
+                        chính
+                        hãng với mong muốn
+                        mang lại
+                        cho khách hàng trải nghiệm mua sắm thú vị và đảm bảo sự hài lòng về sản phẩm của chúng tôi.
+                        Chúng tôi cam kết bán hàng chính hãng và mong muốn đem đến cho bạn sự tự tin khi sử dụng sản
+                        phẩm của chúng tôi. Hãy ghé thăm chúng tôi để khám phá thế giới của nước hoa và trải nghiệm dịch
+                        vụ chất lượng!</p>
+                </div>
+                <div class="container__title">
+                    <h1 class="container__title-text">Thương hiệu</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__band-logo-list">
+                    <div class="grid__column-2">
+                        <a href=""> <img src="./IMAGES/nuoc-hoa-dolce-gabbana-logo.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/chanel-logo.jpg" alt="" class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/creed-logo.jpg" alt="" class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/Dior-logo.jpg" alt="" class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/gucci-logo.jpg" alt="" class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/jean-paul-gaultier-logo.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+
+
+                    <div class="grid__column-2">
+                        <a href=""> <img src="./IMAGES/le-labo-logo.jpg" alt="" class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/nuoc-hoa-calvin-klein-logo.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/nuoc-hoa-dolce-gabbana-logo.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/nuoc-hoa-giorgio-armani-logo-brand.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/nuoc-hoa-giorgio-armani-logo-brand.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+                    <div class="grid__column-2">
+                        <a href=""><img src="./IMAGES/nuoc-hoa-hermes-logo.jpg" alt=""
+                                class="container__band-logo-item"></a>
+                    </div>
+
+                </div>
+                <div class="container__title">
+                    <h1 class="container__title-text">Bài viết</h1>
+                    <a href="#" class="container__title-link">Xem thêm...<ion-icon
+                            name="chevron-forward-outline"></ion-icon></a>
+                </div>
+                <div class="container__post-list">
+                    <div class="grid__column-3 container__post-item-wrapper">
+                        <div class="container__post-item">
+                            <a href="">
+                                <div class="container__post-item-img-wrapper"><img src="./IMAGES/photo-post1.jpg" alt=""
+                                        class="container__post-item-img"></div>
+                            </a>
+                            <span class="container__post-item-lable"><a href=""
+                                    class="container__post-item-lable-link">Kiến
+                                    thức nước hoa</a></span>
+                            <h2 class="container__post-item-title">Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                            </h2>
+                            <div class="container__post-item-interact">
+                                <div class="container__post-item-interact-date">
+                                    <ion-icon name="time-outline"
+                                        class="container__post-item-interact-date-icon"></ion-icon>
+                                    <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                </div>
+                                <div class="container__post-item-interact-view">
+                                    <ion-icon name="eye-outline"
+                                        class="container__post-item-interact-view-icon"></ion-icon>
+                                    <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 container__post-item-wrapper">
+                        <div class="container__post-item">
+                            <a href="">
+                                <div class="container__post-item-img-wrapper"><img src="./IMAGES/photo-post2.jpg" alt=""
+                                        class="container__post-item-img"></div>
+                            </a>
+                            <span class="container__post-item-lable"><a href=""
+                                    class="container__post-item-lable-link">Kiến
+                                    thức nước hoa</a></span>
+                            <h2 class="container__post-item-title">Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                            </h2>
+                            <div class="container__post-item-interact">
+                                <div class="container__post-item-interact-date">
+                                    <ion-icon name="time-outline"
+                                        class="container__post-item-interact-date-icon"></ion-icon>
+                                    <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                </div>
+                                <div class="container__post-item-interact-view">
+                                    <ion-icon name="eye-outline"
+                                        class="container__post-item-interact-view-icon"></ion-icon>
+                                    <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 container__post-item-wrapper">
+                        <div class="container__post-item">
+                            <a href="">
+                                <div class="container__post-item-img-wrapper"><img src="./IMAGES/photo-post3.jpg" alt=""
+                                        class="container__post-item-img"></div>
+                            </a>
+                            <span class="container__post-item-lable"><a href=""
+                                    class="container__post-item-lable-link">Kiến
+                                    thức nước hoa</a></span>
+                            <h2 class="container__post-item-title">Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                            </h2>
+                            <div class="container__post-item-interact">
+                                <div class="container__post-item-interact-date">
+                                    <ion-icon name="time-outline"
+                                        class="container__post-item-interact-date-icon"></ion-icon>
+                                    <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                </div>
+                                <div class="container__post-item-interact-view">
+                                    <ion-icon name="eye-outline"
+                                        class="container__post-item-interact-view-icon"></ion-icon>
+                                    <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 container__post-item-wrapper">
+                        <div class="container__post-item">
+                            <a href="">
+                                <div class="container__post-item-img-wrapper"><img src="./IMAGES/photo-post4.jpg" alt=""
+                                        class="container__post-item-img"></div>
+                            </a>
+                            <span class="container__post-item-lable"><a href=""
+                                    class="container__post-item-lable-link">Kiến
+                                    thức nước hoa</a></span>
+                            <h2 class="container__post-item-title">Hé lộ bí quyết sử dụng nước hoa Tom Ford hiệu quả
+                            </h2>
+                            <div class="container__post-item-interact">
+                                <div class="container__post-item-interact-date">
+                                    <ion-icon name="time-outline"
+                                        class="container__post-item-interact-date-icon"></ion-icon>
+                                    <span class="container__post-item-interact-date-lable">11/01/2024</span>
+                                </div>
+                                <div class="container__post-item-interact-view">
+                                    <ion-icon name="eye-outline"
+                                        class="container__post-item-interact-view-icon"></ion-icon>
+                                    <span class="container__post-item-interact-view-text">200 Lượt xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="footer__widget">
+                <div class="footer__left">
+                    <p class="footer__left-description">Tiệm Nước Hoa là cửa hàng chuyên về các sản phẩm nước hoa chiết,
+                        full, chính hãng từ những thương
+                        hiệu
+                        nổi tiếng trên thế giới.</p>
+                    <ul>
+                        <li>Hotline: 0328 710 516</li>
+                        <li>CSKH & Khiếu nại: 0329 710 516</li>
+                        <li>Email: hungneon4@gmail.com</li>
+                        <li>Giờ làm việc: 9:00 - 21:00</li>
+                        <li>Địa chỉ: 48 Cao Thắng, Thanh Bình, Hải Châu, Đà Nẵng</li>
+                    </ul>
+                    <nav class="footer__left-social">
+                        <ul class="footer__left-social-icon-list">
+                            <li><a href=""><ion-icon name="logo-facebook""></ion-icon></a></li>
+                            <!-- <li><a href=""><ion-icon name=" logo-facebook" "></ion-icon></a></li>
+                            <li><a href=""><ion-icon name=" logo-pinterest"></ion-icon></a></li> -->
+                            <li><a href=""><ion-icon name="logo-pinterest"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+                            <li><a href=""><ion-icon name="mail-outline"></ion-icon></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="footer__right">
+                    <div class="footer__right-policy">
+                        <span class="footer__right-policy-lable">Chính sách</span>
+                        <ul class="footer__right-policy-list">
+                            <li class="footer__right-policy-item">Chính sách bảo mật</li>
+                            <li class="footer__right-policy-item">Chính sách thanh toán</li>
+                            <li class="footer__right-policy-item">Chính sách vận chuyển</li>
+                            <li class="footer__right-policy-item">Chính sách đổi trả</li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-information-right">
+                        <span class="footer__right-information-lable">Thông tin</span>
+                        <ul class="footer__right-information-list">
+                            <li class="footer__right-information-item"><a href="">Liên Hệ</a></li>
+                            <li class="footer__right-information-item"><a href="">Về chúng tôi</a></li>
+                            <li class="footer__right-information-item"><a href="">Đánh giá của khách hàng</a></li>
+                            <li class="footer__right-information-item"><a href="">Founder Lê Việt Hưng</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            Copyright 2024 &copy; TIỆM NƯỚC HOA;
+        </div>
+        <div class="contact-button">
+            <ul>
+                <li><a href=""><img src="./IMAGES/map-logo.png" alt=""></a></li>
+                <li><a href="https://zalo.me/0777127242"><img src="./IMAGES/zalo-icon.png" alt=""></a></li>
+                <li><a href="tel:0329710516"><img src="./IMAGES/call-icon.webp" alt=""></a></li>
+                <li><a href="https://m.me/hungneon74ne"><img src="./IMAGES/messenger-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="./IMAGES/return-home-icon.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
